@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gay Test</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        text-align: center;
+        background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+        color: white;
+        font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+      }
+      .buttons {
+        margin-top: 20px;
+      }
+      button {
+        margin: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+      }
+      #movingButton {
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="counter">you've been gay for: 0 seconds</div>
+    <div id="content">
+      <h1>GAY TEST!!!!</h1>
+      <p>did you cough today???</p>
+    </div>
+    <div class="buttons">
+      <button onclick="changeContent('veredict: gay')">yes</button>
+      <button onclick="changeContent('veredict: lying bastard gay gay gay gay')">no</button>
+      <button id="movingButton" onclick="stopCounter()">I'm not gay bro</button>
+    </div>
+    <script>
+      function changeContent(text) {
+        document.getElementById("content").innerHTML = "<h1>" + text + "</h1>";
+      }
+
+      const movingButton = document.getElementById("movingButton");
+      movingButton.addEventListener("mouseover", function () {
+        const x = Math.random() * (window.innerWidth - 100);
+        const y = Math.random() * (window.innerHeight - 50);
+        movingButton.style.left = `${x}px`;
+        movingButton.style.top = `${y}px`;
+      });
+      let counter = 0;
+      let counterInterval = setInterval(() => {
+        document.getElementById("counter").innerText = "you've been gay for: " + counter + " seconds";
+        counter++;
+      }, 1000);
+
+      function stopCounter() {
+        clearInterval(counterInterval);
+      }
+    </script>
+  </body>
+</html>
