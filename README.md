@@ -4,7 +4,7 @@
 This is a simple yet highly effective test designed to determine whether the user is gay or not. With a straightforward and very human approach, this test provides an interactive experience that delivers a definitive result based on user responses.
 ## How It Works
 
-The test consists of just one simple question. Your answer will be analyzed to produce an outcome indicating their gayness level.
+The test consists of just one simple question. Your answer will be analyzed to produce an outcome indicating your gayness level.
 ## Features
  - User-Friendly: A clean and simple interface.
  - Quick & Easy: Takes only a few seconds to complete.
