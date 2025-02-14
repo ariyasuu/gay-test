@@ -6,22 +6,15 @@ This is a simple yet highly effective test designed to determine whether the use
 
 The test consists of just one simple question. Your answer will be analyzed to produce an outcome indicating their gayness level.
 ## Features
-
-    - User-Friendly: A clean and simple interface.
-
-    Quick & Easy: Takes only a few seconds to complete.
-
-    Accurate: Uses an advanced algorithm to determine the user's gayness level.
+ - User-Friendly: A clean and simple interface.
+ - Quick & Easy: Takes only a few seconds to complete.
+ - Accurate: Uses an advanced algorithm to determine the user's gayness level.
 
 ## How to Use
-
-    Open the test in your browser.
-
-    Follow the on-screen prompts and answer the questions honestly.
-
-    Receive your final gayness score.
-
-    Share with friends and compare results!
+ - Open the test in your browser.
+ - Follow the on-screen prompts and answer the questions honestly.
+ - Receive your final gayness score.
+ - Share with friends and compare results!
 
 ## Disclaimer
 
